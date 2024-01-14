@@ -5,16 +5,16 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: 'Welcome to my blog', url: 'https://mgncoin.xyz' },
+    { title: 'Welcome to the official website for BTI Coin', url: 'https://mgncoin.xyz' },
     { title: 'Visit the documentation center for more help', url: 'https://docs.mgncoin.xyz' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: 'Exploring Bitcoin Coding',
-  HEO_HERO_TITLE_2: 'Bitcoin and Cognitive Thinking',
-  HEO_HERO_TITLE_3: 'BITCOINWORLD1024.COM',
-  HEO_HERO_TITLE_4: 'New Version Launched',
-  HEO_HERO_TITLE_5: 'CryptoNext4.0: Customize Your Bitcoin Experience',
+  HEO_HERO_TITLE_1: 'Delving into BTI Coin Technology',
+  HEO_HERO_TITLE_2: 'BTI Coin and Innovative Finance',
+  HEO_HERO_TITLE_3: 'MGNCOIN.XYZ',
+  HEO_HERO_TITLE_4: 'Introducing the Latest BTI Coin Update',
+  HEO_HERO_TITLE_5: 'CryptoNext5.0: Elevate Your BTI Coin Experience',
   HEO_HERO_TITLE_LINK: 'https://mgncoin.xyz',
 
   // 英雄区显示三个置顶分类
@@ -29,13 +29,13 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '🌟 Hello! I am',
-    '🔍 Passionate about Bitcoin',
-    '🤝 Experienced in blockchain',
-    '🏃 Always staying updated',
-    '🏠 Building the future of finance',
-    '🤖️ Embracing digital currencies',
-    '🧱 Joining the crypto revolution'
+    '🌟 Welcome to the World of BTI Coin',
+    '🔍 Discovering the Innovation in BTI Coin',
+    '🤝 Empowering Finance with Blockchain Technology',
+    '🏃 Pioneering the Future with BTI Coin',
+    '🏠 Building a New Era in Digital Finance',
+    '🤖️ BTI Coin: A New Digital Currency Standard',
+    '🧱 Join the BTI Coin Revolution'
   ],
   HEO_INFO_CARD_URL: 'https://github.com/BTI-US/NotionNext', // 个人资料底部按钮链接
 

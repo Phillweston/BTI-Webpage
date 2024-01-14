@@ -1,7 +1,7 @@
 const CONFIG = {
 
   NEXT_HOME_BANNER: true, // 首页是否显示大图及标语 [true,false]
-  NEXT_HOME_BANNER_STRINGS: ['Hi, I am a Blockchain Developer', 'Hi, I am a Bitcoin Enthusiast', 'Hi, I am a Crypto Trader', 'Welcome to my Bitcoin Blog! 🎉'], // 首页大图标语文字
+  NEXT_HOME_BANNER_STRINGS: ['Discover the Technology Behind BTI-Coin 🌐', 'Unveiling the Future of Cryptocurrency 💡', 'Join Our Journey into the Digital Frontier 🚀'], // 首页大图标语文字
 
   NEXT_NAV_TYPE: 'normal', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部并始终显示、固定屏幕顶部且滚动时隐藏，不固定屏幕顶部
 
