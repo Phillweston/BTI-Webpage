@@ -1,11 +1,11 @@
 {
   "name": "notion-next",
   "version": "4.1.4",
-  "homepage": "https://github.com/Phillweston/NotionNext.git",
+  "homepage": "https://github.com/BTI-US/NotionNext.git",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Phillweston/NotionNext.git"
+    "url": "https://github.com/BTI-US/NotionNext.git"
   },
   "author": {
     "name": "Phillweston",
@@ -71,7 +71,7 @@
     "axios": ">=0.21.1"
   },
   "bugs": {
-    "url": "https://github.com/Phillweston/NotionNext/issues",
+    "url": "https://github.com/BTI-US/NotionNext/issues",
     "email": "lrt2436559745@gmail.com"
   }
 }

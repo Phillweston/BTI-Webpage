@@ -37,7 +37,7 @@ const CONFIG = {
     '🤖️ Embracing digital currencies',
     '🧱 Joining the crypto revolution'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/Phillweston/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://github.com/BTI-US/NotionNext', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
