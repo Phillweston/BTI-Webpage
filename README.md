@@ -1,10 +1,10 @@
 # NotionNext
 
 <p>
-  <a aria-label="GitHub commit activity" href="https://github.com/BTI-US/NotionNext/commits/main" title="GitHub commit activity">
+  <a aria-label="GitHub commit activity" href="https://github.com/BTI-US/BTI-Webpage/commits/main" title="GitHub commit activity">
     <img src="https://img.shields.io/github/commit-activity/m/Phillweston/NotionNext?style=for-the-badge"/>
   </a>
-  <a aria-label="GitHub contributors" href="https://github.com/BTI-US/NotionNext/graphs/contributors" title="GitHub contributors">
+  <a aria-label="GitHub contributors" href="https://github.com/BTI-US/BTI-Webpage/graphs/contributors" title="GitHub contributors">
     <img src="https://img.shields.io/github/contributors/Phillweston/NotionNext?color=orange&style=for-the-badge"/>
   </a>
   <a aria-label="Build status" href="#" title="Build status">

@@ -1,7 +1,7 @@
 const CONFIG = {
 
   LANDING_HEADER_BUTTON_1_TITLE: 'Open Source on Github',
-  LANDING_HEADER_BUTTON_1_URL: 'https://github.com/BTI-US/NotionNext',
+  LANDING_HEADER_BUTTON_1_URL: 'https://github.com/BTI-US/BTI-Webpage',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Bitcoin Developer Blog',
   LANDING_HEADER_BUTTON_2_URL: 'https://docs.mgncoin.xyz',

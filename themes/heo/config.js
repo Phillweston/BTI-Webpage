@@ -37,7 +37,7 @@ const CONFIG = {
     '🤖️ BTI Coin: A New Digital Currency Standard',
     '🧱 Join the BTI Coin Revolution'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/BTI-US/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://github.com/BTI-US/BTI-Webpage', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
