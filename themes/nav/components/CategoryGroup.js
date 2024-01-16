@@ -5,7 +5,7 @@ const CategoryGroup = ({ currentCategory, categoryOptions }) => {
     return <></>
   }
   return <div id='category-list' className='pt-4'>
-    <div className='mb-2'><i className='mr-2 fas fa-th' />分类</div>
+    <div className='mb-2'><i className='mr-2 fas fa-th' />Category</div>
     <div className='flex flex-wrap'>
       {categoryOptions?.map(category => {
         const selected = currentCategory === category.name

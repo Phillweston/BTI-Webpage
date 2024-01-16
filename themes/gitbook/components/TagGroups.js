@@ -11,7 +11,7 @@ const TagGroups = ({ tagOptions, currentTag }) => {
   if (!tagOptions) return <></>
   return (
     <div id='tags-group' className='dark:border-gray-600 py-4'>
-      <div className='mb-2'><i className='mr-2 fas fa-tag' />标签</div>
+      <div className='mb-2'><i className='mr-2 fas fa-tag' />Tag</div>
       <div className='space-y-2'>
         {
           tagOptions?.map(tag => {
