@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/bti-coin.png" alt="BTI-Coin Logo" width="150"/>
+  <img src="docs/bti-platform.png" alt="BTI-Platform Logo" width="150"/>
 </p>
 
 # BTI-Webpage
@@ -29,11 +29,11 @@ A static blog system built with NextJS and Notion API, deployed on Vercel. Desig
 
 ## Preview
 
-Live Demo：[https://bti-coin.vercel.app/](https://bti-coin.vercel.app/) ，Project supports switching between multiple themes. Can't find a theme you like? How about [contributing](/CONTRIBUTING.md) one?~
+Live Demo：[https://btiplatform.vercel.app/](https://btiplatform.vercel.app/) ，Project supports switching between multiple themes. Can't find a theme you like? How about [contributing](/CONTRIBUTING.md) one?~
 
 | Next | Medium | Hexo | Fukasawa |
 |--|--|--|--|
-| <img src='./docs/theme-next.png' width='300'/> [NEXT](https://bti-coin.vercel.app/?theme=next)  | <img src='./docs/theme-medium.png' width='300'/> [MEDIUM](https://bti-coin.vercel.app/?theme=medium) | <img src='./docs/theme-hexo.png' width='300'/> [HEXO](https://bti-coin.vercel.app/?theme=hexo) | <img src='./docs/theme-fukasawa.png' width='300'/> [FUKASAWA](https://bti-coin.vercel.app/?theme=fukasawa) |
+| <img src='./docs/theme-next.png' width='300'/> [NEXT](https://btiplatform.vercel.app/?theme=next)  | <img src='./docs/theme-medium.png' width='300'/> [MEDIUM](https://btiplatform.vercel.app/?theme=medium) | <img src='./docs/theme-hexo.png' width='300'/> [HEXO](https://btiplatform.vercel.app/?theme=hexo) | <img src='./docs/theme-fukasawa.png' width='300'/> [FUKASAWA](https://bti-platform.vercel.app/?theme=fukasawa) |
 
 ## Get Start!
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/bti-coin.png" alt="BTI-Coin Logo" width="150"/>
+  <img src="docs/bti-platform.png" alt="BTI-Platform Logo" width="150"/>
 </p>
 
 # BTI-Webpage
@@ -29,11 +29,11 @@
 
 ## 预览效果
 
-在线演示：[https://bti-coin.vercel.app/](https://bti-coin.vercel.app/) ，项目支持多主题切换，没找到喜欢的主题？[贡献](/CONTRIBUTING.md)一个吧~
+在线演示：[https://btiplatform.vercel.app/](https://btiplatform.vercel.app/) ，项目支持多主题切换，没找到喜欢的主题？[贡献](/CONTRIBUTING.md)一个吧~
 
 | Next | Medium | Hexo | Fukasawa |
 |--|--|--|--|
-| <img src='./docs/theme-next.png' width='300'/> [预览NEXT](https://bti-coin.vercel.app/?theme=next)  | <img src='./docs/theme-medium.png' width='300'/> [预览MEDIUM](https://bti-coin.vercel.app/?theme=medium) | <img src='./docs/theme-hexo.png' width='300'/> [预览HEXO](https://bti-coin.vercel.app/?theme=hexo) | <img src='./docs/theme-fukasawa.png' width='300'/> [预览FUKASAWA](https://bti-coin.vercel.app/?theme=fukasawa) |
+| <img src='./docs/theme-next.png' width='300'/> [预览NEXT](https://btiplatform.vercel.app/?theme=next)  | <img src='./docs/theme-medium.png' width='300'/> [预览MEDIUM](https://btiplatform.vercel.app/?theme=medium) | <img src='./docs/theme-hexo.png' width='300'/> [预览HEXO](https://btiplatform.vercel.app/?theme=hexo) | <img src='./docs/theme-fukasawa.png' width='300'/> [预览FUKASAWA](https://btiplatform.vercel.app/?theme=fukasawa) |
 
 ## 我要如何开始？
 
