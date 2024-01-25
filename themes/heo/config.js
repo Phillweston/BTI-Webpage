@@ -5,17 +5,17 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: 'Welcome to the official website for BTI Coin', url: 'https://mgncoin.xyz' },
-    { title: 'Visit the documentation center for more help', url: 'https://docs.mgncoin.xyz' }
+    { title: 'Welcome to the official website for BTI Platform', url: 'https://btiplatform.com' },
+    { title: 'Visit the documentation center for more help', url: 'https://docs.btiplatform.com' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: 'Delving into BTI Coin Technology',
-  HEO_HERO_TITLE_2: 'BTI Coin and Innovative Finance',
-  HEO_HERO_TITLE_3: 'MGNCOIN.XYZ',
-  HEO_HERO_TITLE_4: 'Introducing the Latest BTI Coin Update',
-  HEO_HERO_TITLE_5: 'CryptoNext5.0: Elevate Your BTI Coin Experience',
-  HEO_HERO_TITLE_LINK: 'https://mgncoin.xyz',
+  HEO_HERO_TITLE_1: 'Delving into BTI Platform Technology',
+  HEO_HERO_TITLE_2: 'BTI Platform and Innovative Finance',
+  HEO_HERO_TITLE_3: 'BTIPLATFORM.COM',
+  HEO_HERO_TITLE_4: 'Introducing the Latest BTI Platform Update',
+  HEO_HERO_TITLE_5: 'CryptoNext5.0: Elevate Your BTI Platform Experience',
+  HEO_HERO_TITLE_LINK: 'https://btiplatform.com',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: 'Must-Read Selection', url: '/tag/must-read-selection' },
@@ -29,13 +29,13 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '🌟 Welcome to the World of BTI Coin',
-    '🔍 Discovering the Innovation in BTI Coin',
+    '🌟 Welcome to the World of BTI Platform',
+    '🔍 Discovering the Innovation in BTI Platform',
     '🤝 Empowering Finance with Blockchain Technology',
-    '🏃 Pioneering the Future with BTI Coin',
+    '🏃 Pioneering the Future with BTI Platform',
     '🏠 Building a New Era in Digital Finance',
-    '🤖️ BTI Coin: A New Digital Currency Standard',
-    '🧱 Join the BTI Coin Revolution'
+    '🤖️ BTI Platform: A New Digital Currency Standard',
+    '🧱 Join the BTI Platform Revolution'
   ],
   HEO_INFO_CARD_URL: 'https://github.com/BTI-US/BTI-Webpage', // 个人资料底部按钮链接
 
@@ -103,7 +103,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: 'Communication Channel',
   HEO_SOCIAL_CARD_TITLE_2: 'Join our community for discussion and sharing',
   HEO_SOCIAL_CARD_TITLE_3: 'Click to join the community',
-  HEO_SOCIAL_CARD_URL: 'https://docs.mgncoin.xyz',
+  HEO_SOCIAL_CARD_URL: 'https://docs.btiplatform.com',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
