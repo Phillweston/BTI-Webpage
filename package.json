@@ -8,8 +8,8 @@
     "url": "https://github.com/BTI-US/BTI-Webpage.git"
   },
   "author": {
-    "name": "Phillweston",
-    "email": "lrt2436559745@gmail.com",
+    "name": "BTI-Platform",
+    "email": "contact@btiplatform.com",
     "url": "https://btiplatform.com"
   },
   "scripts": {
@@ -72,6 +72,6 @@
   },
   "bugs": {
     "url": "https://github.com/BTI-US/BTI-Webpage/issues",
-    "email": "lrt2436559745@gmail.com"
+    "email": "contact@btiplatform.com"
   }
 }
