@@ -7,7 +7,7 @@ import { siteConfig } from '@/lib/config';
 import { useGlobal } from '@/lib/global';
 
 export default function ThreeDModel() {
-  const { theme, switchTheme } = useGlobal();
+  const { switchTheme } = useGlobal();
   const showPet = JSON.parse(siteConfig('WIDGET_PET'));
   const petLink = siteConfig('WIDGET_PET_LINK'); // URL to your 3D model
   const canvasRef = useRef();
