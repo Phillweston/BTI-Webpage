@@ -23,16 +23,19 @@ export default function ThreeDModel() {
     const controls = new OrbitControls(camera, canvas);
     controls.enableDamping = true;
 
-    const light = new THREE.HemisphereLight(0xffffbb, 0x080820, 1);
-    scene.add(light);
+    // Enhanced Ambient Light for softer overall illumination
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.7); // Adjust intensity as needed
+    scene.add(ambientLight);
 
-    // Adding Directional Light
+    // Enhanced Directional Light
     const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-    directionalLight.position.set(-1, 1, 0.5); // Note: x-axis controls left-right, the y-axis controls up-down, and the z-axis controls forward-backward
+    directionalLight.position.set(0, 3, 3); // Reposition to illuminate the model more evenly
     scene.add(directionalLight);
 
-    const ambientLight = new THREE.AmbientLight(0xffffff, 1); // Soft white light
-    scene.add(ambientLight);
+    // Optional: Additional Light Source
+    const additionalLight = new THREE.PointLight(0xffffff, 0.5, 100);
+    additionalLight.position.set(-5, 3, 5); // Adjust position as needed
+    scene.add(additionalLight);
 
     camera.position.z = 5;
 
@@ -45,10 +48,11 @@ export default function ThreeDModel() {
       // Change color to blue and scale the model
       model.traverse((child) => {
         if (child.isMesh) {
-          child.material.color.set(0x0088c6); // Set color to blue
+          child.material.color.set(0x0f73bb); // Blue color
+          child.material.emissive = new THREE.Color(0x111111); // Slight emissive property for additional brightness
         }
       });
-      model.scale.set(1.5, 1.5, 1.5); // Scale the model up
+      model.scale.set(1, 1, 1); // Scale the model up
 
       scene.add(model);
     }, undefined, (error) => {
