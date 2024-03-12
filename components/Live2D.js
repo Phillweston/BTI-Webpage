@@ -28,9 +28,10 @@ export default function ThreeDModel() {
 
     camera.position.z = 5;
 
+    const proxyUrl = `/api/modelProxy?modelUrl=${encodeURIComponent(petLink)}`;
     const loader = new GLTFLoader();
     let model;
-    loader.load(petLink, (gltf) => {
+    loader.load(proxyUrl, (gltf) => {
       model = gltf.scene;
       scene.add(model);
     }, undefined, (error) => {
