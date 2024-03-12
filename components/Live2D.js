@@ -26,6 +26,11 @@ export default function ThreeDModel() {
     const light = new THREE.HemisphereLight(0xffffbb, 0x080820, 1);
     scene.add(light);
 
+    // Adding Directional Light
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+    directionalLight.position.set(-1, 1, 0.5); // Note: x-axis controls left-right, the y-axis controls up-down, and the z-axis controls forward-backward
+    scene.add(directionalLight);
+
     camera.position.z = 5;
 
     const proxyUrl = `/api/modelProxy?modelUrl=${encodeURIComponent(petLink)}`;
@@ -33,6 +38,15 @@ export default function ThreeDModel() {
     let model;
     loader.load(proxyUrl, (gltf) => {
       model = gltf.scene;
+
+      // Change color to blue and scale the model
+      model.traverse((child) => {
+        if (child.isMesh) {
+          child.material.color.set(0x0088c6); // Set color to blue
+        }
+      });
+      model.scale.set(1.5, 1.5, 1.5); // Scale the model up
+
       scene.add(model);
     }, undefined, (error) => {
       console.error(error);
@@ -73,7 +87,7 @@ export default function ThreeDModel() {
   }
 
   return (
-    <canvas ref={canvasRef} width="280" height="250" onClick={handleClick}
+    <canvas ref={canvasRef} width="400" height="400" onClick={handleClick}
       className="cursor-grab"
       onMouseDown={(e) => e.target.classList.add('cursor-grabbing')}
       onMouseUp={(e) => e.target.classList.remove('cursor-grabbing')} />
