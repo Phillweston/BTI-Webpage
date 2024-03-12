@@ -31,6 +31,9 @@ export default function ThreeDModel() {
     directionalLight.position.set(-1, 1, 0.5); // Note: x-axis controls left-right, the y-axis controls up-down, and the z-axis controls forward-backward
     scene.add(directionalLight);
 
+    const ambientLight = new THREE.AmbientLight(0xffffff, 1); // Soft white light
+    scene.add(ambientLight);
+
     camera.position.z = 5;
 
     const proxyUrl = `/api/modelProxy?modelUrl=${encodeURIComponent(petLink)}`;
@@ -87,7 +90,7 @@ export default function ThreeDModel() {
   }
 
   return (
-    <canvas ref={canvasRef} width="400" height="400" onClick={handleClick}
+    <canvas ref={canvasRef} width="400" height="600" onClick={handleClick}
       className="cursor-grab"
       onMouseDown={(e) => e.target.classList.add('cursor-grabbing')}
       onMouseUp={(e) => e.target.classList.remove('cursor-grabbing')} />
