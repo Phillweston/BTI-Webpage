@@ -50,6 +50,7 @@
     "react-notion-x": "6.16.0",
     "react-share": "^4.4.1",
     "react-tweet-embed": "~2.0.0",
+    "three": "^0.162.0",
     "typed.js": "^2.0.12"
   },
   "devDependencies": {
